@@ -1,4 +1,9 @@
 <?php
 
-// Простая заглушка для проверки
-echo "<h1> Yavexa CMS работает!</h1>";
+require_once __DIR__ . '/../core/Kernel.php';
+require_once __DIR__ . '/../core/Router.php';
+
+use Core\Kernel;
+
+$app = new Kernel();
+$app->run();
