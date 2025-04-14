@@ -1,0 +1,26 @@
+.v-text-center { text-align: center; }
+.v-font-bold { font-weight: bold; }
+.v-text-xl { font-size: 1.25rem; }
+.v-font-bold { font-weight: bold; }
+.v-btn {
+    background: #111;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.v-btn:hover {
+    background: #333;
+}
+.vx-btn {
+    padding: 0.5rem 1rem;
+    background: black;
+    color: white;
+    border-radius: 6px;
+}
+.vx-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
